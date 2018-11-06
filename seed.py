@@ -11,6 +11,17 @@ Base.metadata.bind = engine
 
 session = session()
 
+
+#
+# from models import *
+# from sqlalchemy import create_engine
+# import pandas as pd
+#
+# engine = create_engine('sqlite:///songstuff.db')
+#
+# Session = sessionmaker(bind=engine)
+# session = Session()
+
 dead = Artist(name="Grateful Dead")
 stones = Artist(name="Rolling Stones")
 beatles = Artist(name="Beatles")
